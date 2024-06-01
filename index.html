@@ -1,0 +1,868 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Redesign Arngren.net</title>
+
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="assets/images/arngrenLogo.png" type="image/png">
+
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<link rel="stylesheet" href="assets/css/tiny-slider.css">
+
+	<link rel="stylesheet" href="assets/css/glightbox.min.css">
+
+	<link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+
+	<link rel="stylesheet" href="assets/css/selectr.css">
+
+	<link rel="stylesheet" href="assets/css/nouislider.css">
+
+	<link rel="stylesheet" href="assets/css/bootstrap-5.0.5-alpha.min.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+	<!--====== PRELOADER PART START ======-->
+
+	<div class="preloader">
+		<div class="loader">
+			<div class="ytp-spinner">
+				<div class="ytp-spinner-container">
+					<div class="ytp-spinner-rotator">
+						<div class="ytp-spinner-left">
+							<div class="ytp-spinner-circle"></div>
+						</div>
+						<div class="ytp-spinner-right">
+							<div class="ytp-spinner-circle"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--====== PRELOADER PART ENDS ======-->
+
+	<!--====== HEADER PART START ======-->
+
+	<header class="header_area">
+		<div id="header_navbar" class="header_navbar">
+			<div class="container position-relative">
+				<div class="row align-items-center">
+					<div class="col-xl-12">
+						<nav class="navbar navbar-expand-lg">
+
+							<a class="navbar-brand" href="index.html">
+								<img id="logo" src="assets/images/arngrenLogo.png" alt="Logo"
+									style="height: 3em; width: 3em;">
+							</a>
+
+						
+
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+								data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+								<ul id="nav" class="navbar-nav">
+									<li class="nav-item">
+										<a class="page-scroll active" href="index.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" data-toggle="collapse" data-target="#sub-nav1"
+											aria-controls="sub-nav1" aria-expanded="false"
+											aria-label="Toggle navigation" href="javascript:void(0)">Vehicles⌄
+											<div class="sub-nav-toggler">
+												<span></span>
+											</div>
+										</a>
+										<ul class="sub-menu collapse" id="sub-nav1">
+											<li><a href="">Car</a></li>
+											<li><a href="">Bike</a></li>
+											<li><a href="">Scooter</a></li>
+											<li><a href="">Truck</a></li>
+											<li><a href="">Bus</a></li>
+
+
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" data-toggle="collapse" data-target="#sub-nav"
+											aria-controls="sub-nav" aria-expanded="false" aria-label="Toggle navigation"
+											href="javascript:void(0)">Gadgets⌄
+											<div class="sub-nav-toggler">
+												<span></span>
+											</div>
+										</a>
+										<ul class="sub-menu collapse" id="sub-nav">
+											<li><a >Laptop</a></li>
+											<li><a >Mobile Phone</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="product-details.html">Appliances⌄</a>
+									</li>
+								</ul>
+							</div>
+
+						</nav> <!-- navbar -->
+					</div>
+				</div> <!-- row -->
+			</div> <!-- container -->
+		</div> <!-- header navbar -->
+	</header>
+
+	<!--====== HEADER PART ENDS ======-->
+
+	<!--====== HERO PART START ======-->
+	<section id="home" class="hero-area bg_cover">
+		<div class="container">
+			<div class="row">
+
+				<div class="mx-auto col-lg-9 col-xl-9 col-md-10">
+					<div class="text-center hero-content">
+						<div class="search-area">
+							<h1>Welcome to Arngren.net</h1>
+							<div class="container">
+								<div class="search-wrapper">
+									<form action="#">
+										<div class="row justify-content-center">
+											<div class="col-lg-4 col-sm-5 col-10">
+												<div class="search-input">
+													<label for="keyword"><i
+															class="lni lni-search-alt theme-color"></i></label>
+													<input type="text" name="keyword" id="keyword"
+														placeholder="Product keyword">
+												</div>
+											</div>
+											<div class="col-lg-4 col-sm-5 col-10">
+												<div class="search-input">
+													<label for="category"><i
+															class="lni lni-grid-alt theme-color"></i></label>
+													<select name="category" id="category">
+														<option value="none" selected disabled>Categories</option>
+														<option value="none">Vehicle</option>
+														<option value="none">Electronics</option>
+														<option value="none">Mobiles</option>
+														<option value="none">Furniture</option>
+														<option value="none">Fashion</option>
+														<option value="none">Jobs</option>
+														<option value="none">Real Estate</option>
+														<option value="none">Animals</option>
+														<option value="none">Education</option>
+														<option value="none">Matrimony</option>
+													</select>
+
+												</div>
+											</div>
+											<div class="col-lg-2 col-sm-5 col-10">
+												<div class="search-btn">
+													<button class="main-btn btn-hover">Search <i
+															class="lni lni-search-alt"></i></button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== HERO PART END ======-->
+
+	<!--====== SEARCH PART START ======-->
+
+	<!--====== SEARCH PART END ======-->
+
+	<!--====== CATEGORY LIST PART START ======-->
+	<section class="category-list-area pt-50">
+		<div class="container">
+			<div class="category-list-wrapper">
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-car"></i>
+						</div>
+						<h3>Vehicles</h3>
+					</a>
+				</div>
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-display"></i>
+						</div>
+						<h3>Electronics</h3>
+					</a>
+				</div>
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-mobile"></i>
+						</div>
+						<h3>Mobiles</h3>
+					</a>
+				</div>
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-leaf"></i>
+						</div>
+						<h3>Furnitures</h3>
+					</a>
+				</div>
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-tshirt"></i>
+						</div>
+						<h3>Fashion</h3>
+					</a>
+				</div>
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-briefcase"></i>
+						</div>
+						<h3>Jobs</h3>
+					</a>
+				</div>
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-apartment"></i>
+						</div>
+						<h3>Real Estates</h3>
+					</a>
+				</div>
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-book"></i>
+						</div>
+						<h3>Education</h3>
+					</a>
+				</div>
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-users"></i>
+						</div>
+						<h3>Matrimony</h3>
+					</a>
+				</div>
+				<div class="category-list-item">
+					<a href="category.html">
+						<div class="icon">
+							<i class="lni lni-heart"></i>
+						</div>
+						<h3>Pets</h3>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== CATEGORY LIST PART END ======-->
+
+	<!--====== LATEST PRODUCT PART START ======-->
+	<section class="latest-product-area pt-130 pb-110">
+		<div class="container">
+			<div class="row">
+				<div class="mx-auto col-xl-6 col-lg-7 col-md-10">
+					<div class="text-center section-title mb-60">
+						<h1>Latest Products</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="product-details.html">
+								<img src="assets/images/001.png" style="height: 250px;" alt="">
+							</a>
+							<div class="product-action">
+								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+							</div>
+						</div>
+
+						<div class="product-content">
+							<h4 class="name"><a href="product-details.html">El-Moped Scooter</a></h3>
+							<div class="product-bottom">
+								<h3 class="price">kr 15.998</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="product-details.html">
+								<img src="assets/images/002.png" style="height: 250px;" alt="">
+
+							</a>
+							<div class="product-action">
+								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+							</div>
+						</div>
+
+						<div class="product-content">
+							<h4 class="name"><a href="product-details.html">elbil. Stor 2-seter</a></h3>
+							<div class="product-bottom">
+								<h3 class="price">kr 4.998</h3>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="product-details.html">
+								<img src="assets/images/003.png" style="height: 250px;" alt="">
+
+							</a>
+							<div class="product-action">
+								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+							</div>
+						</div>
+
+						<div class="product-content">
+							<h4 class="name"><a href="product-details.html">Elektrisk- Jeep</a></h3>
+							<div class="product-bottom">
+								<h3 class="price">kr 119.998</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="product-details.html">
+								<img src="assets/images/004.png" style="height: 250px;" alt="">
+
+							</a>
+							<div class="product-action">
+								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+							</div>
+						</div>
+
+						<div class="product-content">
+							<h4 class="name"><a href="product-details.html">el-Biler til barn</a></h3>
+							<div class="product-bottom">
+								<h3 class="price">kr 3.298</h3>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="product-details.html">
+								<img src="assets/images/005.png" style="height: 250px;" alt="">
+							</a>
+							<div class="product-action">
+								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+							</div>
+						</div>
+
+						<div class="product-content">
+							<h4 class="name"><a href="product-details.html">sammenleggbar</a></h3>
+							<div class="product-bottom">
+								<h3 class="price">kr 12.998</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="product-details.html">
+								<img src="assets/images/006.png" style="height: 250px;" alt="">
+
+							</a>
+							<div class="product-action">
+								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+							</div>
+						</div>
+
+						<div class="product-content">
+							<h4 class="name"><a href="product-details.html">elsykkel</a></h3>
+							<div class="product-bottom">
+								<h3 class="price">kr 10.998</h3>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="product-details.html">
+								<img src="assets/images/007.png" style="height: 250px;" alt="">
+							</a>
+							<div class="product-action">
+								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+							</div>
+						</div>
+
+						<div class="product-content">
+							<h4 class="name"><a href="product-details.html">Elektrisk Porsche</a></h3>
+							<div class="product-bottom">
+								<h3 class="price">kr 998.000</h3>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="single-product">
+						<div class="product-img">
+							<a href="product-details.html">
+								<img src="assets/images/008.png" style="height: 250px;" alt="">
+							</a>
+							<div class="product-action">
+								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+							</div>
+						</div>
+
+						<div class="product-content">
+							<h4 class="name"><a href="product-details.html">elbil 4WD Mercedes</a></h3>
+							<div class="product-bottom">
+								<h3 class="price">kr 4.398</h3>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!--====== LATEST PRODUCT PART ENDS ======-->
+
+
+	<!--====== FEATURE PRODUCT PART START ======-->
+	<section class="feature-product-area bg_cover">
+		<div class="container">
+			<div class="row">
+				<div class="mx-auto col-lg-6 col-md-10">
+					<div class="text-center section-title mb-60">
+						<h1>Featured Products</h1>
+			
+					</div>
+				</div>
+			</div>
+
+			<div class="product-carousel-wrapper">
+				<div class="row feature-product-carousel">
+
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="single-product">
+							<div class="product-img">
+								<a href="product-details.html">
+									<img src="assets/images/001.png" style="height: 250px;" alt="">
+								</a>
+								<div class="product-action">
+									<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+									<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+								</div>
+							</div>
+	
+							<div class="product-content">
+								<h4 class="name"><a href="product-details.html">El-Moped Scooter</a></h3>
+								<div class="product-bottom">
+									<h3 class="price">kr 15.998</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="single-product">
+							<div class="product-img">
+								<a href="product-details.html">
+									<img src="assets/images/002.png" style="height: 250px;" alt="">
+	
+								</a>
+								<div class="product-action">
+									<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+									<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+								</div>
+							</div>
+	
+							<div class="product-content">
+								<h4 class="name"><a href="product-details.html">elbil. Stor 2-seter</a></h3>
+								<div class="product-bottom">
+									<h3 class="price">kr 4.998</h3>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="single-product">
+							<div class="product-img">
+								<a href="product-details.html">
+									<img src="assets/images/003.png" style="height: 250px;" alt="">
+	
+								</a>
+								<div class="product-action">
+									<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+									<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+								</div>
+							</div>
+	
+							<div class="product-content">
+								<h4 class="name"><a href="product-details.html">Elektrisk- Jeep</a></h3>
+								<div class="product-bottom">
+									<h3 class="price">kr 119.998</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="single-product">
+							<div class="product-img">
+								<a href="product-details.html">
+									<img src="assets/images/004.png" style="height: 250px;" alt="">
+	
+								</a>
+								<div class="product-action">
+									<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+									<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+								</div>
+							</div>
+	
+							<div class="product-content">
+								<h4 class="name"><a href="product-details.html">el-Biler til barn</a></h3>
+								<div class="product-bottom">
+									<h3 class="price">kr 3.298</h3>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="single-product">
+							<div class="product-img">
+								<a href="product-details.html">
+									<img src="assets/images/005.png" style="height: 250px;" alt="">
+								</a>
+								<div class="product-action">
+									<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+									<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+								</div>
+							</div>
+	
+							<div class="product-content">
+								<h4 class="name"><a href="product-details.html">sammenleggbar</a></h3>
+								<div class="product-bottom">
+									<h3 class="price">kr 12.998</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="single-product">
+							<div class="product-img">
+								<a href="product-details.html">
+									<img src="assets/images/006.png" style="height: 250px;" alt="">
+	
+								</a>
+								<div class="product-action">
+									<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+									<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+								</div>
+							</div>
+	
+							<div class="product-content">
+								<h4 class="name"><a href="product-details.html">elsykkel</a></h3>
+								<div class="product-bottom">
+									<h3 class="price">kr 10.998</h3>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="single-product">
+							<div class="product-img">
+								<a href="product-details.html">
+									<img src="assets/images/007.png" style="height: 250px;" alt="">
+								</a>
+								<div class="product-action">
+									<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+									<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+								</div>
+							</div>
+	
+							<div class="product-content">
+								<h4 class="name"><a href="product-details.html">Elektrisk Porsche</a></h3>
+								<div class="product-bottom">
+									<h3 class="price">kr 998.000</h3>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="single-product">
+							<div class="product-img">
+								<a href="product-details.html">
+									<img src="assets/images/008.png" style="height: 250px;" alt="">
+								</a>
+								<div class="product-action">
+									<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
+									<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
+								</div>
+							</div>
+	
+							<div class="product-content">
+								<h4 class="name"><a href="product-details.html">elbil 4WD Mercedes</a></h3>
+								<div class="product-bottom">
+									<h3 class="price">kr 4.398</h3>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== FEATURE PRODUCT PART ENDS ======-->
+
+
+		<!--====== FOOTER PART START ======-->
+		<footer class="footer-area">
+			<div class="widget-wrapper">
+				<div class="map-img">
+					<img src="assets/images/footer/map-img.svg" alt="">
+				</div>
+				<div class="container">
+					<div class="row">
+
+						<div class="col-xl-3 col-md-7">
+							<div class="footer-widget about">
+								<a href="index.html" class="d-inline-block mb-30">
+									<img src="assets/images/arngrenLogo.png" alt="">
+								</a>
+								<p class="text-white mb-25">Buy And Sell Everything From Used Cars To Mobile Phones And
+									Computers, Search For Property, Jobs And More</p>
+								<ul class="social">
+									<li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+									<li><a href="javascript:void(0)"><i class="lni lni-twitter-filled"></i></a></li>
+									<li><a href="javascript:void(0)"><i class="lni lni-instagram-filled"></i></a></li>
+									<li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-xl-2 col-md-4 order-md-2 order-xl-1 col-sm-6">
+							<div class="footer-widget">
+								<h4>Quick Link</h4>
+								<ul class="link">
+									<li><a href="javascript:void(0)">Home</a></li>
+									<li><a href="javascript:void(0)">Vehicles</a></li>
+									<li><a href="javascript:void(0)">Gadget</a></li>
+									<li><a href="javascript:void(0)">Appliances</a></li>
+									<li><a href="javascript:void(0)">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-xl-2 col-md-4 order-md-3 order-xl-2 col-sm-6">
+							<div class="footer-widget">
+								<h4>Support</h4>
+								<ul class="link">
+									<li><a href="javascript:void(0)">Live Chat</a></li>
+									<li><a href="javascript:void(0)">Privacy Policy</a></li>
+									<li><a href="javascript:void(0)">Purchase</a></li>
+									<li><a href="javascript:void(0)">Protection</a></li>
+									<li><a href="javascript:void(0)">Support</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-xl-2 col-md-4 order-md-4 order-xl-3 col-sm-6">
+							<div class="footer-widget">
+								<h4>Information</h4>
+								<ul class="link">
+									<li><a href="javascript:void(0)">Company</a></li>
+									<li><a href="javascript:void(0)">Contact Info</a></li>
+									<li><a href="javascript:void(0)">Blog & Articles</a></li>
+									<li><a href="javascript:void(0)">Terms of Service</a></li>
+									<li><a href="javascript:void(0)">Privacy Policy</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-xl-2 col-md-5 order-md-1 order-xl-4 col-sm-6">
+							<div class="footer-widget">
+								<h4>Contact Us</h4>
+								<ul>
+									<li>
+										<span>Phone:</span>
+										0345983672937
+									</li>
+									<li>
+										<span>Email:</span>
+										yourmail@gmail.com
+									</li>
+									<li>
+										<span>Location:</span>
+										United State of America
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</footer>
+		<!--====== FOOTER PART ENDS ======-->
+
+		<!--====== BACK TOP TOP PART START ======-->
+		<a href="#" class="back-to-top btn-hover"><i class="lni lni-chevron-up"></i></a>
+		<!--====== BACK TOP TOP PART ENDS ======-->
+
+
+		<!--====== Bootstrap js ======-->
+		<script src="assets/js/bootstrap.bundle-5.0.0.alpha-min.js"></script>
+
+		<!--====== Tiny slider js ======-->
+		<script src="assets/js/tiny-slider.js"></script>
+
+		<!--====== wow js ======-->
+		<script src="assets/js/wow.min.js"></script>
+
+		<!--====== glightbox js ======-->
+		<script src="assets/js/glightbox.min.js"></script>
+
+		<!--====== Selectr js ======-->
+		<script src="assets/js/selectr.min.js"></script>
+
+		<!--====== Nouislider js ======-->
+		<script src="assets/js/nouislider.js"></script>
+
+		<!--====== Main js ======-->
+		<script src="assets/js/main.js"></script>
+
+		<script>
+
+			//========= glightbox
+			const myGallery = GLightbox({
+				'href': 'assets/video/Free App Landing Page Template - AppLand.mp4',
+				'type': 'video',
+				'source': 'youtube', //vimeo, youtube or local
+				'width': 900,
+				'autoplayVideos': true,
+			});
+
+			//======== tiny slider for feature-product-carousel
+			tns({
+				slideBy: 'page',
+				autoplay: false,
+				mouseDrag: true,
+				gutter: 20,
+				nav: false,
+				controls: true,
+				controlsPosition: 'bottom',
+				controlsText: [
+					'<span class="prev"><i class="lni lni-chevron-left"></i></span>',
+					'<span class="next"><i class="lni lni-chevron-right"></i></span>'
+				],
+				container: ".feature-product-carousel",
+				items: 1,
+				center: false,
+				autoplayTimeout: 5000,
+				swipeAngle: false,
+				speed: 400,
+				responsive: {
+					768: {
+						items: 2,
+					},
+
+					992: {
+						items: 2,
+					},
+
+					1200: {
+						items: 3,
+					}
+				}
+			});
+
+			//======== tiny slider for testimonial
+			tns({
+				slideBy: 'page',
+				autoplay: false,
+				mouseDrag: true,
+				gutter: 20,
+				nav: true,
+				controls: false,
+				container: ".testimonial-carousel",
+				items: 1,
+				center: false,
+				autoplayTimeout: 5000,
+				swipeAngle: false,
+				speed: 400,
+				responsive: {
+					768: {
+						items: 2,
+					},
+					1200: {
+						items: 3,
+					}
+				}
+			});
+		</script>
+
+</body>
+
+</html>
